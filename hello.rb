@@ -144,3 +144,125 @@ arr << "World"
 #     end
 # end
 
+# x = "Some global object"
+
+# def fn x
+#     p x
+#     nil
+# end
+
+# fn x
+
+# class Test
+#     def initialize (name)
+#         @name = name
+#     end
+
+#     def doSomething
+#         name = "Something"
+#         p name
+#         p @name
+#         nil
+#     end
+# end
+
+# obj = Test.new("Hello")
+# obj.doSomething
+
+# class Student
+#     def greet
+#         puts "Hello"
+#     end
+# end
+
+# class ScienceStudent < Student
+#     def greet
+#         puts "hello from science student"
+#     end
+# end
+
+# class ScienceStudent < Student
+#     def greet
+#         puts "hello from science student"
+#     end
+# end
+
+# class ScienceStudent < Student
+#     def greet
+#         puts "hello from science student"
+#     end
+# end
+
+# class ScienceStudent < Student
+#     def greet
+#         super; puts "hello from science student"
+#     end
+# end
+
+# class Student
+#     def initialize(name, age)
+#         @name = name
+#         @age = age
+#     end
+# end
+
+# class ScienceStudent
+#     def initialize(name, age, subject)
+#         super(name, age)
+#         @subject = subject
+#     end
+# end
+
+# obj = ScienceStudent.new("Mayank", 21, "Science")
+
+# class ScienceStudent
+#     private
+#     def getMarks()
+#         puts "Marks are 100"
+#     end
+# end
+
+# class ScienceStudent
+#     def accessMarks()
+#         getMarks()
+#     end
+# end
+
+# obj.accessMarks()
+
+# class Student
+#     private
+#     def testFn()
+#         p "Test function"
+#     end
+# end
+
+# class ScienceStudent
+#     def callTest()
+#         testFn
+#     end
+# end
+
+# module TestModule
+#     def modulefn()
+#         p "inside module method"
+#     end
+# end
+
+# class ModuleClass
+#     include TestModule
+# end
+
+# class ModuleClass
+#     extend TestModule
+# end
+
+# class Car
+#     def initialize(name, engine)
+#         @name = name
+#         @engine = engine
+#     end
+# end
+
+# class Engine
+# end
