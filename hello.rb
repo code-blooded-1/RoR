@@ -266,3 +266,34 @@ arr << "World"
 
 # class Engine
 # end
+
+# def fn(p1, &block)
+#     p p1
+#     yield
+# end
+
+# def fn(p1, &block)
+#     p p1
+#     yield if block_given?
+# end
+
+# fn(21, ) do |x|
+#     p "Hello"
+# end
+
+# fn(45)
+
+
+#singleton class
+class Person 
+    @@instance = nil
+
+    def self.getInstance
+        return @@instance if @@instance
+        @@instance = new
+    end
+
+    private_class_method :new
+end
+
+p Person.getInstance
